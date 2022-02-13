@@ -11,13 +11,16 @@
             padding: 0;
             margin: 0;
         }
+
         body {
             direction: rtl;
+            background-color: #f7f7f7;
         }
+
         form {
             border: solid #fcfcfc;
             background-color: #ffffff;
-            width: 50%;
+            width: 40%;
             height: 500px;
             position: relative;
             left: 0px;
@@ -25,73 +28,70 @@
             margin: 20px 20px 20px 60px;
         }
 
-        h1{
+        form img {
+            top: 12px;
+            left: 35px;
+            border: solid 1px;
+        }
+
+        h1 {
             position: relative;
-            right: 8%;
-            margin: 25px 0 25px 0;
+            margin: 25px 25px;
         }
 
-        body {
-            background-color: #f7f7f7;
-        }
-
-        /*ul{position: relative;
+        ul {
+            position: relative;
             width: 50%;
-            left:700px;
-        }*/
+            margin: auto 100px;
+            list-style: none;
+        }
 
-        h3 {
-            /*position: relative;
-            left:990px;*/
+        ul li {
+            color: #747576;
         }
 
         img {
             position: relative;
-            /*left:1110px;*/
+            width: 30px;
             top: 50px;
-        }
-
-        h1 {
-            /*position: relative;
-            left:2000px;
-            bottom:700px;*/
+            margin: auto -35px;
         }
 
         p {
-            /*position: relative;
-            left:1500px;
-            bottom:440px;*/
-            margin: auto 20px 20px auto;
-        }
-
-        div {
-            /*position: relative;
-            left:1800px;
-            bottom:440px;
-            width:700px;
-            height:100px; */
+            margin: auto 30px;
+            color: #747576;
         }
 
         button {
-
             height: 50px;
             background-color: #3DB4B7;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            color: white;
+            font-size: 20px;
         }
 
         .btnregestger {
-            width: 30%;
+            width: 15%;
+            margin: 20px 30px;
+            height: 35px;
         }
 
         .btnlogin {
             width: 50%;
-            margin: 5px;
+            margin: 20px auto;
         }
 
         .formlogin {
             text-align: center;
+            margin: 20px auto;
+        }
+
+        .input {
+            width: 30%;
+            height: 30px;
+            margin: -5px;
         }
     </style>
 </head>
@@ -100,10 +100,10 @@
     <form>
         <div class="formlogin">
             <h2>تسجيل الدخول الى حسابك</h2>
-            <img scr="icons/icon_3.png">
-            <input type="text" name="text"><br>
-            <img scr="icons/icon_3.png">
-            <input class="mytext" type="text" name="text"><br><br>
+            <img src="icons/icon_4.png" />
+            <input type="text" name="text" class="input"><br>
+            <img src="icons/icon_5.png" />
+            <input type="text" name="text" class="input"><br><br>
             <input type="checkbox" name="checkbox">
             <label>البقاء متصلا</label>
             <a href="#">نسيت كلمة المرور؟</a><br>
@@ -114,19 +114,17 @@
     <h1> فن وشاي</h1>
     <p>دروس فن وشاي هو موقع للإسترخاء من خلال الالوان لون و ارسم واحصل على أروع الأوقات أصدقاءك أو عاءلتك</p>
     <div><button class="btnregestger" type="text" name="text">سجل على دروس فن وشاي</button></div>
-    <ul style="position: relative; width: 50%; margin: 20px;">
-        <img src="icons/icon_1.png" width=30px;>
+    <ul>
+        <img src="icons/icon_1.png" />
         <h3>سهولة شراء لوحاتنا</h3>
-        <ul>يعمل فريق فن وشاي جاهدايوصل لوحاتنا للزبائن بأفضل جودة وأسرع وقت.</ul>
-        <img src="icons/icon_2.png" width=38px;>
+        <li>يعمل فريق فن وشاي جاهدايوصل لوحاتنا للزبائن بأفضل جودة وأسرع وقت.</li>
+        <img src="icons/icon_2.png" />
         <h3>ضمان استعادة النقود</h3>
-        <ul>في حال حصول أي خطأ في التسجيل يمكنك بسهولة اعادة التسجيل او استرجاع النقود</ul>
-        <img src="icons/icon_3.png" width=30px;>
+        <li>في حال حصول أي خطأ في التسجيل يمكنك بسهولة اعادة التسجيل او استرجاع النقود</li>
+        <img src="icons/icon_3.png" />
         <h3>التقييم و المراجعة</h3>
-        <ul>تقييمك لدروسنا سيساعدنا و يساعد المعلمين على وفير خدمة افضل للمجتمع كما انه سوف يساعد الطلاب في اختيار لوحته
-            الخاصه ورسمها مع معلمين ممتازين و بخبرة فائقة</ul>
-
-
+        <li>تقييمك لدروسنا سيساعدنا و يساعد المعلمين على وفير خدمة افضل للمجتمع كما انه سوف يساعد الطلاب في اختيار لوحته
+            الخاصه ورسمها مع معلمين ممتازين و بخبرة فائقة</li>
     </ul>
 </body>
 
